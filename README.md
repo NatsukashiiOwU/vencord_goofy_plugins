@@ -15,27 +15,18 @@
 
 ## Установка:
 
-Чтобы установить пользовательские плагины Vencord на стандартную установку Vencord (не версию для разработки), вам нужно выполнить следующие шаги:
- * Найдите папку Vencord:
-   * Откройте проводник файлов.
-   * Перейдите в каталог вашего профиля пользователя. Обычно это C:\Users\<Ваше имя пользователя> в Windows или /home/<Ваше имя пользователя> в Linux и macOS.
-   * Найдите папку с именем .vencord. Если вы ее не видите, убедитесь, что в настройках файлового проводника включена опция «показывать скрытые элементы».
- * Перейдите в папку src:
-   * Внутри папки .vencord перейдите в папку src.
- * Создайте папку userplugins:
-   * Внутри папки src создайте новую папку с именем userplugins (все строчные буквы). В ней вы будете размещать свои пользовательские плагины.
- * Добавьте свой пользовательский плагин:
-   * Поместите файлы пользовательских плагинов в папку userplugins.
-   * Плагин обычно должен быть либо:
-     * Один файл .ts или .tsx (например, myCoolPlugin.ts).
-     * Папка, содержащая файл index.ts или index.tsx (например, myCoolPlugin/index.tsx).
- * Перезапустите Discord:
-   * Полностью закройте и перезапустите приложение Discord. Это позволит Vencord распознать новый плагин.
- * Включите плагин в Discord:
-   * Откройте Discord и перейдите к настройкам пользователя (значок шестеренки в левом нижнем углу).
-   * Прокрутите боковую панель вниз, пока не найдете раздел «Vencord».
-   * Нажмите на «Плагины».
-   * Теперь вы должны увидеть ваш пользовательский плагин в списке. Включите его, нажав на тумблер рядом с его названием.
+Установите
+
+Если вы не знаете, как установить userplugins, обратитесь к [руководству по установке](https://docs.vencord.dev/installing/) Vencord.
+
+Также есть это [видео](https://youtu.be/3anTy0EdvsE?si=uX1_EEpILAAUHo9a) от Syncxv, в котором показано, как установить пользовательский плагин на Windows. Только не забудьте заменить команду git clone на URL-адрес понравившегося вам плагина
+
+Клонируйте репозиторий в папку Vencord src/userplugins (создайте папку userplugins, если она не существует)
+
+cd Vencord/src/
+git clone https://github.com/vencord_goofy_plugins/userplugins
+cd Vencord/
+pnpm build
 
 
 # vencord_goofy_plugins en
@@ -55,24 +46,4 @@ The repository contains plugins for [vencord](https://vencord.dev/) that will ne
 
 ## installation:
 
-To install custom Vencord plugins on a default Vencord installation (not a development version), you'll need to follow these steps:
- * Locate the Vencord Folder:
-   * Open your file explorer.
-   * Navigate to your user profile directory. This is usually C:\Users\<YourUsername> on Windows or /home/<YourUsername> on Linux and macOS.
-   * Look for a folder named .vencord. If you can't see it, make sure you have "show hidden items" enabled in your file explorer settings.
- * Navigate to the src Folder:
-   * Inside the .vencord folder, go into the src folder.
- * Create the userplugins Folder:
-   * Inside the src folder, create a new folder named exactly userplugins (all lowercase). This is where you will place your custom plugins.
- * Add Your Custom Plugin:
-   * Place your custom plugin files into the userplugins folder.
-   * A plugin should typically be either:
-     * A single .ts or .tsx file (e.g., myCoolPlugin.ts).
-     * A folder containing an index.ts or index.tsx file (e.g., myCoolPlugin/index.tsx).
- * Restart Discord:
-   * Completely close and restart your Discord application. This will allow Vencord to recognize the new plugin.
- * Enable the Plugin in Discord:
-   * Open Discord and go to your User Settings (the gear icon in the bottom left).
-   * Scroll down the sidebar until you find the "Vencord" section.
-   * Click on "Plugins".
-   * You should now see your custom plugin listed here. Enable it by clicking the toggle switch next to its name.
+Refer to [this repo](https://github.com/D3SOX/vencord-userplugins) install section of readme
