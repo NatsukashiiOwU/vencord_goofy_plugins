@@ -13,7 +13,7 @@
 ![image](https://github.com/user-attachments/assets/e7128875-f22e-41e4-a353-932ea4572345)
 
 
-Установка:
+## Установка:
 
 Чтобы установить пользовательские плагины Vencord на стандартную установку Vencord (не версию для разработки), вам нужно выполнить следующие шаги:
  * Найдите папку Vencord:
@@ -47,13 +47,13 @@ The repository contains plugins for [vencord](https://vencord.dev/) that will ne
 
 **Plugins are provided as is, correctness of work and protection of accounts from banning by the creators of the original product is not guaranteed**.
 
-**Bulk Roles: Позволяет задавать выбранную роль всем отмеченным в сообщении пользователям**
+**Bulk Roles: Gives option to assign selected role to every mentioned in message user**
 
 ![image](https://github.com/user-attachments/assets/afd37d1a-01bb-4745-8ab5-524dde717a2a)
 
 ![image](https://github.com/user-attachments/assets/e7128875-f22e-41e4-a353-932ea4572345)
 
-installation:
+## installation:
 
 To install custom Vencord plugins on a default Vencord installation (not a development version), you'll need to follow these steps:
  * Locate the Vencord Folder:
