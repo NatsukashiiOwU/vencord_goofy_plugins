@@ -12,6 +12,10 @@
 
 ![image](https://github.com/user-attachments/assets/e7128875-f22e-41e4-a353-932ea4572345)
 
+**ExtractChannelMessages: Позволяет получить всю кэшированную истроию сообщений из канала**
+
+![image](https://github.com/user-attachments/assets/bdf1064e-a651-4f64-a7ae-db81c42105da)
+
 
 ## Установка:
 
@@ -41,6 +45,11 @@ The repository contains plugins for [vencord](https://vencord.dev/) that will ne
 ![image](https://github.com/user-attachments/assets/afd37d1a-01bb-4745-8ab5-524dde717a2a)
 
 ![image](https://github.com/user-attachments/assets/e7128875-f22e-41e4-a353-932ea4572345)
+
+
+**ExtractChannelMessages: Extracts all chached channel messages**
+
+![image](https://github.com/user-attachments/assets/bdf1064e-a651-4f64-a7ae-db81c42105da)
 
 ## installation:
 
