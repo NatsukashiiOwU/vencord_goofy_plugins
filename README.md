@@ -1,0 +1,1 @@
+# vencord_goofy_plugins
