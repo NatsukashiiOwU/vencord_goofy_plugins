@@ -22,12 +22,12 @@
 Также есть это [видео](https://youtu.be/3anTy0EdvsE?si=uX1_EEpILAAUHo9a) от Syncxv, в котором показано, как установить пользовательский плагин на Windows. Только не забудьте заменить команду git clone на URL-адрес понравившегося вам плагина
 
 Клонируйте репозиторий в папку Vencord src/userplugins (создайте папку userplugins, если она не существует)
-
+```
 cd Vencord/src/
 git clone https://github.com/vencord_goofy_plugins/userplugins
 cd Vencord/
 pnpm build
-
+```
 
 # vencord_goofy_plugins en
 
